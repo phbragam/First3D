@@ -11,6 +11,13 @@ public class Fly : MonoBehaviour
     Vector3 forward;
     Vector3 side;
 
+    //private void Start()
+    //{
+    //    transform.Translate(100, 0, 0);
+    //    transform.position = HolisticMath.Translate(transform.position, transform.right, 100);
+    //    Debug.Log(transform.right);
+    //}
+
     void Update()
     {
         side = transform.right;
